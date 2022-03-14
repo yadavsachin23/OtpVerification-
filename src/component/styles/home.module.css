@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../../img/bgimg.jpg);
+}
+.top{
+    height: 15vh;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #31AE5F;
+    background-color: #1a1a1a;
+    font-size: 3rem;
+    display: grid;
+    place-items: center;
+
+}
+.bottom img{
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    border: none;
+    background-color: #497296;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    padding: 20px;
+}
+.logout{
+    text-align: center;
+    border: none;
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+    background: red;
+    color: #fff;
+    padding: 10px;
+    font-size: 1.5em;
+    border-radius: 5px;
+    position: relative;
+    transition: all 500ms ease;
+    position: absolute;
+    text-transform: uppercase;
+    top: 55%;
+    cursor: pointer;
+    left: 70%;
+    transform: translate(-50%,-50%);
+}
+.logout:hover{
+    color: red;
+    border: red solid 1px;
+    background:#0D3E5C;
+}
